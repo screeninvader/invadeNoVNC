@@ -1,0 +1,32 @@
+{
+  "name": "invadeNoVNC",
+  "version": "0.0.1",
+  "description": "An HTML5 VNC client connecting to the screeninvader buildserver",
+  "scripts": {
+    "start": "watchify js/index.js -o js/bundle.js -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/screeninvader/invadeNoVNC.git"
+  },
+  "author": "Metalab <metalab@lists.metalab.at>",
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "email": "jascha@jaeh.at",
+      "github": "jaeh"
+    }
+  ],
+  "license": "AGPL",
+  "bugs": {
+    "url": "https://github.com/screeninvader/invadeNoVNC/issues"
+  },
+  "homepage": "https://github.com/screeninvader/invadeNoVNC",
+  "dependencies": {
+    "novnc-node": "^0.5.1"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "watchify": "^3.1.2"
+  }
+}

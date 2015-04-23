@@ -1,0 +1,23 @@
+body {
+  color: green;
+}
+
+#noVNC_screen {
+  width: 30%;
+  height: 40vh;
+  float: left;
+}
+
+#noVNC_canvas {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+
+#outta_space {
+  width: 67%;
+  height: 99vh;
+  display: block;
+  float: right;
+  margin: 0;
+}
